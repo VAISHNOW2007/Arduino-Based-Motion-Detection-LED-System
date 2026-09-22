@@ -19,7 +19,7 @@ The HC-SR04 ultrasonic sensor detects changes in the distance of an object. The 
 
 ## **4\. Working**
 
-The ultrasonic sensor continuously sends ultrasonic waves and receives the reflected waves from nearby objects. The Arduino calculates the distance using the echo signal. When an object comes within the programmed detection range, the Arduino identifies its presence and makes the LED blink. When no object is detected within the specified range, the LED remains OFF.![][image1]
+The ultrasonic sensor continuously sends ultrasonic waves and receives the reflected waves from nearby objects. The Arduino calculates the distance using the echo signal. When an object comes within the programmed detection range, the Arduino identifies its presence and makes the LED blink. When no object is detected within the specified range, the LED remains OFF.![image1](B2.png)
 
 ## **5\. Arduino Code**
 
@@ -62,7 +62,7 @@ void loop() {
   else {  
     digitalWrite(ledPin, LOW);  
   }  
-}![][image2]
+}![image2](B1.png)
 
 ## **6\. Applications**
 
